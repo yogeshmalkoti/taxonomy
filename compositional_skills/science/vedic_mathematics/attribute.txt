@@ -1,0 +1,27 @@
+# Attribute File for Vedic Mathematics QA System
+# This file contains metadata for the dataset used in question-answering for Vedic Mathematics.
+
+Dataset Name: Vedic Mathematics QA Dataset
+Description: A collection of questions and answers related to Vedic Mathematics, an ancient system of mathematics based on sutras (formulas) and techniques for rapid mental calculations.
+Source: The data is curated from various authentic texts and sources on Vedic Mathematics, including books like "Vedic Mathematics" by Jagadguru Swami Sri Bharati Krishna Tirtha and other educational resources.
+Version: 1.0
+Created By: [Your Name / Organization]
+Date Created: 2024-11-14
+Language: English
+Topic: Vedic Mathematics
+Category: Mathematics, Education
+License: Open License / Educational Use
+Purpose: To create a question-answering model for Vedic Mathematics, enabling learners to quickly find answers to questions about mental math techniques and strategies.
+Data Format: YAML-based Q&A format
+
+Attributes:
+- Concept: Basic principles, techniques, and sutras in Vedic Mathematics.
+- Sutra: Short formulae used for performing calculations.
+- Methods: Various techniques used to solve math problems (e.g., multiplication, division, squaring, etc.).
+- Historical Context: Background and origin of Vedic Mathematics.
+- Applications: Real-world usage of Vedic Mathematics in solving arithmetic and algebraic problems.
+
+References:
+1. Vedic Mathematics, by Jagadguru Swami Bharati Krishna Tirtha.
+2. https://www.vedicmaths.org
+3. https://en.wikipedia.org/wiki/Vedic_mathematics

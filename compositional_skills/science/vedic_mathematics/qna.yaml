@@ -1,0 +1,124 @@
+version: 1.0
+domain: vedic_mathematics
+created_by: [Yogesh Kumar Malkoti]
+seed_examples:
+  - context: |
+      **Vedic Mathematics** is an ancient system of mathematics that derives from the Vedas, the oldest sacred texts of India. It consists of 16 Sutras (formulas) that can be applied to a wide range of mathematical problems, including arithmetic, algebra, geometry, and calculus. The techniques in Vedic Mathematics are designed to simplify complex problems, reduce the number of steps required to solve them, and enable mental calculations.
+    questions_and_answers:
+      - question: |
+          What is Vedic Mathematics?
+        answer: |
+          Vedic Mathematics is a system of mathematics based on 16 Sutras (formulas) derived from the ancient Indian Vedas. It provides techniques to simplify calculations and solve problems more efficiently, especially in mental arithmetic.
+      - question: |
+          How many Sutras are there in Vedic Mathematics?
+        answer: |
+          There are 16 primary Sutras in Vedic Mathematics. Each Sutra provides a unique technique for solving different types of mathematical problems.
+      - question: |
+          What are the benefits of using Vedic Mathematics?
+        answer: |
+          Vedic Mathematics helps in simplifying complex mathematical calculations, speeds up problem-solving, and enhances mental arithmetic skills. It is especially useful for students and professionals looking to improve their mathematical abilities.
+      - question: |
+          Can Vedic Mathematics be applied to modern-day problems?
+        answer: |
+          Yes, Vedic Mathematics can be applied to modern-day problems, particularly in mental calculations, engineering, cryptography, and even artificial intelligence where speed and efficiency are crucial.
+
+  - context: |
+      **Nikhilam Navatashcaramam Dashatah** (All from 9 and the last from 10) is a Sutra used for multiplication, particularly when both numbers are close to a power of 10. For example, to multiply 98 × 97, subtract both numbers from 100 (giving 2 and 3), multiply the differences (2 × 3 = 6), and subtract that from 10000 to get the answer 9604. This Sutra simplifies multiplication without requiring long multiplication methods.
+    questions_and_answers:
+      - question: |
+          What is the "Nikhilam Navatashcaramam Dashatah" Sutra used for?
+        answer: |
+          The "Nikhilam Navatashcaramam Dashatah" Sutra is used for multiplying numbers that are close to a base, such as 10, 100, or 1000. It simplifies the multiplication process by subtracting from the base and multiplying the differences.
+      - question: |
+          How do you apply the "Nikhilam Navatashcaramam Dashatah" Sutra to multiply 98 and 97?
+        answer: |
+          To multiply 98 × 97, subtract each number from 100 (getting 2 and 3), multiply the differences (2 × 3 = 6), and subtract this from 10000, resulting in 9604.
+      - question: |
+          Why is the "Nikhilam Navatashcaramam Dashatah" Sutra effective for multiplication?
+        answer: |
+          The Sutra is effective for multiplying numbers near a power of 10 because it transforms the multiplication into a simpler subtraction and multiplication of smaller numbers, making the process quicker.
+
+  - context: |
+      The **Ekadhikena Purvena** Sutra ("By one more than the previous one") is used for squaring numbers that are near a base, such as 100. For example, to square 98, subtract it from 100 (getting 2), add the result to 100 (100 + 2 = 102), and finally subtract the square of the difference (2² = 4) from 10000. This results in 9604. This Sutra helps in squaring numbers faster, especially mentally.
+    questions_and_answers:
+      - question: |
+          What is the "Ekadhikena Purvena" Sutra used for?
+        answer: |
+          The "Ekadhikena Purvena" Sutra is used for squaring numbers that are near a base number (like 100), simplifying the calculation by subtracting from the base and adding the difference.
+      - question: |
+          How do you use the "Ekadhikena Purvena" Sutra to square 98?
+        answer: |
+          To square 98, subtract 98 from 100 (getting 2), then add this result to 100 (102), and finally subtract the square of the difference (2² = 4) from 10000, resulting in 9604.
+      - question: |
+          Can the "Ekadhikena Purvena" Sutra be used for squaring numbers other than those near 100?
+        answer: |
+          Yes, while the Sutra is most effective for numbers near 100, it can also be used for numbers near any power of 10 by adjusting the base accordingly.
+
+  - context: |
+      **Vertically and Crosswise** is a technique used for multiplying two-digit numbers. For example, to multiply 23 by 12, the method involves:
+      1. Multiply the last digits (3 × 2 = 6).
+      2. Cross-multiply and add the results (2 × 2) + (1 × 3) = 4 + 3 = 7.
+      3. Multiply the first digits (2 × 1 = 2).
+      The result is then 276. This method allows for quick mental multiplication of two-digit numbers.
+    questions_and_answers:
+      - question: |
+          What is the "Vertically and Crosswise" method in Vedic Mathematics?
+        answer: |
+          The "Vertically and Crosswise" method is a technique for multiplying two-digit numbers by breaking the multiplication into smaller steps: multiplying the last digits, cross-multiplying and adding, and finally multiplying the first digits.
+      - question: |
+          How do you apply the "Vertically and Crosswise" method to multiply 23 and 12?
+        answer: |
+          To multiply 23 × 12, multiply the last digits (3 × 2 = 6), cross-multiply and add the results (2 × 2 + 1 × 3 = 7), and then multiply the first digits (2 × 1 = 2). Combining these gives 276.
+      - question: |
+          What are the advantages of the "Vertically and Crosswise" method?
+        answer: |
+          This method reduces the complexity of multiplying large numbers, simplifies mental calculations, and makes it easier to perform multiplication quickly without writing intermediate steps.
+
+  - context: |
+      **Sankalana-vyavakalanabhyam** ("By addition and by subtraction") is used to solve problems involving both addition and subtraction simultaneously. It is useful for problems like factoring expressions or solving equations involving multiple terms. For example, for the expression (a + b)(c + d), the method involves adding and subtracting terms in a systematic way to find the result.
+    questions_and_answers:
+      - question: |
+          What is the "Sankalana-vyavakalanabhyam" Sutra used for?
+        answer: |
+          The "Sankalana-vyavakalanabhyam" Sutra is used for solving problems involving both addition and subtraction. It helps simplify expressions and solve equations with multiple terms by using systematic addition and subtraction.
+      - question: |
+          How do you use the "Sankalana-vyavakalanabhyam" Sutra in factoring?
+        answer: |
+          In factoring expressions like (a + b)(c + d), the Sutra guides you to perform addition and subtraction of terms in a structured way to simplify the equation or find the factors.
+      - question: |
+          What does the "Sankalana-vyavakalanabhyam" Sutra help with in algebra?
+        answer: |
+          The Sutra helps in algebraic expressions by simplifying terms that involve both addition and subtraction, making it easier to solve for variables or simplify the expressions.
+
+  - context: |
+      The **Multiplication by the Cross and Divide Method** is a technique used for multiplying large numbers. For example, to multiply 123 by 456, the method involves multiplying the first digit of the first number by the first digit of the second number, then the second digit of the first number by the second digit of the second number, and so on. The results are added together in a cross-wise manner.
+    questions_and_answers:
+      - question: |
+          What is the "Multiplication by the Cross and Divide" method?
+        answer: |
+          The "Multiplication by the Cross and Divide" method involves multiplying corresponding digits from two numbers and adding the results in a cross-wise manner. This technique is particularly useful for multiplying large numbers quickly.
+      - question: |
+          How do you apply the "Multiplication by the Cross and Divide" method to multiply 123 and 456?
+        answer: |
+          To multiply 123 × 456, multiply the first digits of each number (1 × 4 = 4), then the second digits (2 × 5 = 10), and the third digits (3 × 6 = 18). Add these results together in a cross-wise manner to get the final answer.
+      - question: |
+          When is the "Multiplication by the Cross and Divide" method most effective?
+        answer: |
+          This method is most effective when multiplying large numbers or numbers with more than two digits, as it reduces the complexity of traditional long multiplication methods.
+
+  - context: |
+      **Shunyam Saamyasamuccaye** ("When the sum is the same, that is zero") is a Sutra used for simplifying the division process, especially when dividing large numbers. It helps identify when division problems result in zero or when terms cancel out, simplifying the overall calculation.
+    questions_and_answers:
+      - question: |
+          What does the "Shunyam Saamyasamuccaye" Sutra mean?
+        answer: |
+          The "Shunyam Saamyasamuccaye" Sutra means "When the sum is the same, that is zero." It is used to simplify division problems by recognizing when terms cancel out or when the division result is zero.
+      - question: |
+          How is the "Shunyam Saamyasamuccaye" Sutra applied in division?
+        answer: |
+          This Sutra helps identify when the division of large numbers results in a zero remainder or when the terms simplify to zero, making the calculation faster and easier.
+      - question: |
+          Can the "Shunyam Saamyasamuccaye" Sutra be used for all division problems?
+        answer: |
+          This Sutra is particularly useful when the terms involved in the division simplify or cancel each other out. It is not applicable in all division problems, but it can significantly reduce the effort in specific cases.
+
